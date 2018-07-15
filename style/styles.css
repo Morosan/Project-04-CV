@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #DFDCE3;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+div#body-container {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+aside {
+    width: 28%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+    margin-right: 1%;
+    margin-top: 14px;
+    margin-left: 1%;
+    float: left;
+}
+div#aside-container {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgb(161, 161, 161);
+}
+main {
+    width: 68%;
+    max-width: 900px;
+    display: block;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 14px;
+}
+div#main-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    color: rgb(74, 74, 74);
+}
+div#main-container h4 {
+    color: rgb(101, 101, 101);
+}
+div#work-e-inner-container, div#education-inner-container {
+    width: 90%;
+    margin: 30px auto;
+}
+div#work-e-wrapper, div#education-wrapper {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgb(161, 161, 161);
+}
+div#work-e-wrapper {
+    margin-bottom: 30px;
+}
+footer {
+    width: 100%;
+    float: left;
+    background-color: #4abdac;
+    height: 130px;
+    text-align: center;
+    margin-top: 20px;
+}
+div#footer-container {
+    width: 100%;
+    float: left;
+}
+div#cv-wrapp-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
+}
+div#cv-wrapp-image h2 {
+    text-align: center;
+    background-color: #def2f1;
+    float: left;
+    width: 100%;
+    color: #4c4c4c;
+    font-size: 26px;
+    height: auto;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 14px 4px;
+    text-shadow: 2px 2px rgba(161, 161, 161, 0.45);
+}
+div#introduction-logo-wrapp {
+    float: left;
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    font-size: 24px;
+}
+div#aside-container .fa {
+    margin: 14px 10px;
+    color: #4abdac;
+    padding-top: 1px;
+}
+div#introduction-text-wrapp {
+    width: 80%;
+    float: right;
+    height: 200px;
+}
+div#introduction-text-wrapp p {
+    margin: 6px 0;
+    padding: 14px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+div#skills-wrapp {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+div#aside-container i.fa.fa-asterisk, div#aside-container i.fa.fa-globe {
+    width: 30%;
+    padding-left: 40px;
+    float: left;
+    margin: 14px auto;
+    text-align: center;
+    font-size: 26px;
+}
+div#skills-wrapp h4, div#languages-wrapp h4 {
+    float: left;
+    text-align: left;
+    width: 70%;
+    margin: 16px 0;
+    font-size: 20px;
+    color: rgb(101, 101, 101);
+}
+div#introduction-container {
+    width: 100%;
+    float: left;
+}
+div#introduction-container #introduction-wrapp {
+    width: 94%;
+    height: 220px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+div#skills-container-wrapp {
+    width: 100%;
+    float: left;
+}
+div#skills-container, div#languages-container {
+    width: 94%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #bdbdbd;
+}
+.full-bar-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    border-radius: 26px;
+    background-color: #dfdce3;
+}
+.bar-container {
+    width: 90%;
+    border-radius: 26px;
+    max-height: 20px;
+    background: linear-gradient(-90deg, #309485, #4abdac);
+}
+p.percent {
+    margin: 0 auto;
+    color: #fff;
+}
+div#skills-container h6, div#languages-container h6 {
+    margin: 20px 10px 10px 0px;
+}
+div#first {
+    width: 100%;
+}
+div#second {
+    width: 95%;
+}
+div#fourth, div#fifth {
+    width: 65%;
+}
+div#sixth, div#language-franch {
+    width: 50%;
+}
+div#septh, div#eight, div#third {
+    width: 80%;
+}
+div#ninth, div#language-german {
+    width: 40%;
+}
+div#languages-container {
+    border: none;
+}
+div#language-english {
+    width: 90%;
+}
+div#language-spanish {
+    width: 70%;
+}
+div#main-container .fa {
+    font-size: 36px;
+    color: #4abdac;
+}
+.img-h1-container {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+div#work-e-inner-container .img-h1-container .fa, div#education-inner-container .img-h1-container .fa {
+    width: 8%;
+    float: left;
+}
+div#work-e-inner-container .img-h1-container h1, div#education-inner-container .img-h1-container h1 {
+    width: 92%;
+    float: left;
+    margin: 0 auto;
+}
+.work-list-wrapp, .education-list-wrapp {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 16px;
+}
+div#main-container .work-date {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    color: #309485;
+    font-size: 18px;
+}
+.work-list-wrapp:last-child, .education-list-wrapp:last-child {
+    border-bottom: none;
+}
+
+.work-date i.fa {
+    float: left;
+    width: 10%;
+}
+.work-date p {
+    width: 90%;
+    float: left;
+    margin: 8px 0;
+}
+i.fa.fa-calendar {
+    font-size: 28px!important;
+    padding: 5px 0 5px 20px;
+}
+div#main-container p span {
+    background-color: #4abdac;
+    color: white;
+    padding: 4px;
+    border-radius: 6px;
+}
+div#social-media-wrapp p {
+    float: left;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+}
+div#social-media {
+    margin: 0 auto;
+    padding-bottom: 16px;
+    width: 80%;
+    border-bottom: 1px solid white;
+}
+div#social-media-wrapp {
+    float: left;
+    width: 100%;
+}
+div#social-media a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 0 8px;
+}
+div#social-media a:hover {
+    color: #dfdce3;
+}
